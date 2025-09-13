@@ -1,0 +1,14 @@
+{
+  "name": "dating-network-php",
+  "version": "1.0.0",
+  "description": "Professional Dating Network with PHP, PDO, AJAX, and Tailwind CSS",
+  "scripts": {
+    "build": "tailwindcss -i ./assets/css/input.css -o ./assets/css/output.css --no-lint",
+    "start": "php -S localhost:3000"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0",
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/aspect-ratio": "^0.4.2"
+  }
+}
